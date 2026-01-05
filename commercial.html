@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Construction Services | BuildCorp</title>
+    <meta name="description"
+        content="Professional commercial site-work including parking lots, excavation, demolition, and infrastructure. Reliable, licensed, and insured.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">BUILD<span class="highlight">CORP</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="residential.html">Residential</a></li>
+                <li><a href="commercial.html" class="active" style="color: var(--secondary-color);">Commercial</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="btn-primary">Get a Quote</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header"
+        style="background-image: url('https://loremflickr.com/1200/600/office,building');">
+        <div class="page-header-content">
+            <h1>Commercial Services</h1>
+            <p>Heavy Duty Solutions for Businesses & Municipalities</p>
+        </div>
+    </header>
+
+    <!-- Services Grid -->
+    <section class="services-section section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Commercial Site Management</h2>
+                <p>We deliver on-time, on-budget projects with a focus on safety and compliance.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <i class="fas fa-parking service-icon"></i>
+                    <h3>Parking Lot Paving</h3>
+                    <p>New construction, resurfacing, and repairs for commercial parking lots. Striping and ADA
+                        compliance included.</p>
+                    <a href="commercial-paving.html" class="service-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <i class="fas fa-snowplow service-icon"></i>
+                    <h3>Snow & Ice Management</h3>
+                    <p>24/7 fleet readiness for winter storm response. Keep your business open and safe.</p>
+                    <a href="commercial-snow-management.html" class="service-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <i class="fas fa-dungeon service-icon"></i>
+                    <h3>Heavy Excavation</h3>
+                    <p>Foundation digging, trenching for utilities, and massive earthmoving projects.</p>
+                    <a href="commercial-excavation.html" class="service-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <i class="fas fa-water service-icon"></i>
+                    <h3>Drainage Solutions</h3>
+                    <p>Retention ponds, catch basins, and storm sewer installation to manage site runoff.</p>
+                    <a href="commercial-drainage.html" class="service-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <i class="fas fa-dumpster service-icon"></i>
+                    <h3>Site Demolition</h3>
+                    <p>Full building teardowns and site clearing. We handle all permits and debris disposal.</p>
+                    <a href="commercial-demolition.html" class="service-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section id="contact" class="cta-section section-padding">
+        <div class="container">
+            <h2>Start Your Commercial Project</h2>
+            <p>Our estimators are ready to review your plans and provide a competitive bid.</p>
+            <div class="contact-form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="name" style="text-align: left;">Company / Contact Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Acme Corp">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" style="text-align: left;">Work Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="name@company.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="service" style="text-align: left;">Service Needed</label>
+                        <select id="service" class="form-control">
+                            <option>Parking Lot Paving</option>
+                            <option>Excavation</option>
+                            <option>Demolition</option>
+                            <option>Snow Removal</option>
+                            <option>Site Work / Utilities</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" style="text-align: left;">RFP / Project Details</label>
+                        <textarea id="message" class="form-control"
+                            placeholder="Please include location and timeline..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" style="background-color: var(--primary-color);">Request a
+                        Bid</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>BuildCorp</h3>
+                    <p>Premier site-work construction services for residential and commercial clients.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="residential.html">Residential</a></li>
+                        <li><a href="commercial.html">Commercial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@buildcorp.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Construction Way, City, ST</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BuildCorp Construction. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
